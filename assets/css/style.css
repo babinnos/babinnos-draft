@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  overflow: hidden;
+
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.home{
+  overflow: hidden;
+  background-image: url("/Users/omerzaid/Desktop/BAB-Site/assets/video_blue.mp4");
+  background-attachment:fixed;
+  min-height: 140vh;
+  width: 85vw;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  padding: 20 20rem;
+  position: relative;
+  overflow: hidden !important;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: -200vh;
+  min-width: 195vh;
+  padding-left: 1px;
+  background-attachment:fixed;
+}
+
+@media (max-width: 950px) {
+  section {
+    padding: 10px 10px 10px;
+  }
+}
+
+footer {
+  bottom: 20px;
+  position: absolute;
+  bottom: 500px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+footer2 {
+  color: #fff;
+  bottom: 20px;
+  position: absolute;
+  bottom: 1px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .logo {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2rem;
+  overflow: hidden;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 1rem;
+  transition: 500ms ease;
+}
+
+footer ul li a:hover,
+footer ul li a.active {
+  background: hsla(0, 0%, 100%, 0.25);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
