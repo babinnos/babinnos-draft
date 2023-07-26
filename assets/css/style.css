@@ -25,7 +25,7 @@ body {
 
 .home{
   overflow: hidden;
-  background-image: url("/Users/omerzaid/Desktop/BAB-Site/assets/video_blue.mp4");
+  background-image: url("/assets/video_blue.mp4");
   background-attachment:fixed;
   min-height: 140vh;
   width: 85vw;
